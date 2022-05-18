@@ -1,4 +1,3 @@
-
 import 'package:about/about.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:core/domain/entities/movie/movie.dart';
@@ -157,7 +156,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                 onTap: () =>
                     Navigator.pushNamed(context, TopRatedMoviesPage.ROUTE_NAME),
               ),
-               BlocBuilder<MovieTopRatedBloc, MovieTopRatedState>(
+              BlocBuilder<MovieTopRatedBloc, MovieTopRatedState>(
                 builder: (context, state) {
                   if (state is MovieTopRatedLoading) {
                     return const Center(
@@ -171,7 +170,7 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                     return const Text('Failed');
                   }
                 },
-               ),
+              ),
             ],
           ),
         ),

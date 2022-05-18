@@ -24,6 +24,7 @@ import 'package:core/presentation/pages/tv_series/tv_series_top_rated_page.dart'
 import 'package:core/presentation/pages/tv_series/tv_series_watchlist_page.dart';
 import 'package:core/styles/colors.dart';
 import 'package:core/styles/text_styles.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -33,7 +34,9 @@ import 'package:search/presentation/bloc/movie_search/movie_search_bloc.dart';
 import 'package:search/presentation/bloc/tv_series_search/tv_series_search_bloc.dart';
 import 'package:search/presentation/pages/search_page.dart';
 import 'package:search/presentation/pages/tv_series_search_page.dart';
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   di.init();
   runApp(MyApp());
 }
