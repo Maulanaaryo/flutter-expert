@@ -693,13 +693,6 @@ DA:127,5
 LF:46
 LH:46
 end_of_record
-SF:lib\domain\usecases\movie\get_movie_detail.dart
-DA:10,1
-DA:12,1
-DA:13,2
-LF:3
-LH:3
-end_of_record
 SF:lib\data\repositories\tv_series_repository_impl.dart
 DA:17,1
 DA:23,1
@@ -749,6 +742,13 @@ DA:126,3
 DA:127,5
 LF:46
 LH:46
+end_of_record
+SF:lib\domain\usecases\movie\get_movie_detail.dart
+DA:10,1
+DA:12,1
+DA:13,2
+LF:3
+LH:3
 end_of_record
 SF:lib\domain\usecases\movie\get_movie_recommendations.dart
 DA:10,1

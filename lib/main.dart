@@ -38,7 +38,7 @@ import 'package:search/presentation/pages/tv_series_search_page.dart';
 void main() async {
   WidgetsFlutterBinding?.ensureInitialized();
   await Firebase.initializeApp();
-  await SslPinnings.init();
+  await SslPinning.init();
   di.init();
   runApp(MyApp());
 }
