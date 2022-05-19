@@ -46,8 +46,6 @@ import 'package:search/domain/usecases/search_tv_series.dart';
 import 'package:search/presentation/bloc/movie_search/movie_search_bloc.dart';
 import 'package:search/presentation/bloc/tv_series_search/tv_series_search_bloc.dart';
 
-
-
 final locator = GetIt.instance;
 
 void init() {
