@@ -40,7 +40,6 @@ import 'package:core/presentation/bloc/tv_series/tv_series_popular/tv_series_pop
 import 'package:core/presentation/bloc/tv_series/tv_series_recommendation/tv_series_recommendation_bloc.dart';
 import 'package:core/presentation/bloc/tv_series/tv_series_top_rated/tv_series_top_rated_bloc.dart';
 import 'package:core/presentation/bloc/tv_series/tv_series_watchlist/tv_series_watchlist_bloc.dart';
-import 'package:http/http.dart' as http;
 import 'package:get_it/get_it.dart';
 import 'package:search/domain/usecases/search_movies.dart';
 import 'package:search/domain/usecases/search_tv_series.dart';
